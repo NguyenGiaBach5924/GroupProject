@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 import axios from "../api/axios";
 import "./TestCreationOptions.css";
 import RandomlyCreateTest from "./RandomlyCreateTest";
@@ -7,6 +8,7 @@ import TopBar from "./teacherTopbar";
 import Sidebar from "./teacherSidebar";
 
 const TestCreationOptions = () => {
+  const navigate = useNavigate();
   const [selectedOption, setSelectedOption] = useState(null);
   const [subjects, setSubjects] = useState([]); 
   const [selectedSubject, setSelectedSubject] = useState(""); 
@@ -76,7 +78,7 @@ const TestCreationOptions = () => {
   return (
     <div className="test-creation-container">
       {/* TopBar stays at the top */}
-      <TopBar toggleSidebar={toggleSidebar} onLogout={handleLogout} />
+      <TopBar toggleSidebar={toggleSidebar} />
 
       {/* Sidebar */}
       <Sidebar isOpen={isSidebarOpen} toggleSidebar={toggleSidebar} />
