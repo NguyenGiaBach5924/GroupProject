@@ -58,8 +58,6 @@ A comprehensive educational platform built with React that provides an interacti
 ### Botpress Integration
 The platform integrates with Botpress Cloud for AI chatbot functionality. Configure your Botpress instance in `src/api/server.js`:
 
-
-
 ## 👥 User Roles
 
 ### Student Features
@@ -83,6 +81,7 @@ The platform uses JWT-based authentication with role-based access control:
 - Teachers have access to administrative features
 - Protected routes ensure proper access control
 
+## 📱 Key Components
 
 ## 🎨 UI/UX Features
 
@@ -106,15 +105,6 @@ The platform integrates with several APIs:
 - **JWT Tokens** - Secure authentication
 - **State Management** - React Context for global state
 - **Caching** - Optimized data fetching
-
-## 🚀 Deployment
-
-### Deploy Options
-- **Vercel** - Recommended for React apps
-- **Netlify** - Static site hosting
-- **AWS Amplify** - Full-stack deployment
-- **Traditional hosting** - Upload build files
-
 
 ## 👨‍💻 Development Team
 
