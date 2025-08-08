@@ -68,7 +68,6 @@ The platform uses JWT-based authentication with role-based access control:
 - Teachers have access to administrative features
 - Protected routes ensure proper access control
 
-
 ## 🎨 UI/UX Features
 
 - **Modern Design**: Clean and intuitive interface
@@ -95,3 +94,4 @@ The platform integrates with several APIs:
 ## 👨‍💻 Development Team
 
 This project was developed as a group project for USTH (University of Science and Technology of Hanoi).
+
