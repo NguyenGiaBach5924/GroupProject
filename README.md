@@ -11,6 +11,19 @@ A comprehensive educational platform built with React that provides an interacti
 - **Student Analytics**: View student performance and rankings
 - **Content Management**: Upload and manage educational materials
 
+#### Overview
+![Profile](src/assets/gitReadme/profile.png)
+*User Profile Interface*
+
+![Question Bank](src/assets/gitReadme/questionBank.png)
+*Question Bank Interface*
+
+![Subject](src/assets/gitReadme/subject.png)
+*Subject Interface*
+
+![Test List](src/assets/gitReadme/testList.png)
+*Test List Interface*
+
 ### Core Features
 - **Role-based Authentication**: Secure login system with different access levels
 - **Real-time Chat**: AI-powered chatbot for student assistance
@@ -70,29 +83,6 @@ The platform uses JWT-based authentication with role-based access control:
 - Teachers have access to administrative features
 - Protected routes ensure proper access control
 
-## 📱 Key Components
-
-### Dashboard Components
-- `StudentDashboard.jsx` - Student main interface
-- `TeacherDashboard.jsx` - Teacher main interface
-- `Sidebar.jsx` - Navigation sidebar
-- `Topbar.jsx` - Top navigation bar
-
-### Learning Components
-- `Quiz.jsx` - Quiz taking interface
-- `Test.jsx` - Test taking interface
-- `Theory.jsx` - Theory content viewer
-- `Exercise.jsx` - Exercise practice
-
-### Management Components
-- `QuestionBank.jsx` - Question management
-- `TestCreationOptions.jsx` - Test creation interface
-- `ChapterList.jsx` - Chapter management
-- `Ranking.jsx` - Student rankings
-
-### Chat Components
-- `ChatArea.jsx` - AI chatbot interface
-- `History.jsx` - Chat history management
 
 ## 🎨 UI/UX Features
 
@@ -119,40 +109,13 @@ The platform integrates with several APIs:
 
 ## 🚀 Deployment
 
-### Build for Production
-```bash
-npm run build
-```
-
 ### Deploy Options
 - **Vercel** - Recommended for React apps
 - **Netlify** - Static site hosting
 - **AWS Amplify** - Full-stack deployment
 - **Traditional hosting** - Upload build files
 
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Add tests if applicable
-5. Submit a pull request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## 👨‍💻 Development Team
 
 This project was developed as a group project for USTH (University of Science and Technology of Hanoi).
-
-## 📞 Support
-
-For support and questions:
-- Create an issue in the repository
-- Contact the development team
-- Check the documentation
-
----
-
-**Note**: This is an educational platform designed by a group of USTH student for USTH students and teachers. 
